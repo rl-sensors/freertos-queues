@@ -43,6 +43,7 @@ When the items are received, they are removed from the queue. It's done by `xQue
     xQueueReceive(testy_queue, (void *) read_value, 0);
 
 ### Scenarios
+To try the different scenarios, update the sending method in the writing task and update the task delays for each of the task.
 
 #### Writing Faster than Reading (with send)
 
